@@ -3,3 +3,7 @@
     flex-direction: column;
     gap: 5px;
 }
+
+.empty {
+    color: #fdab3d;
+}

@@ -5,7 +5,7 @@ const TodoList = ({ list, remove }) => {
 	if (list?.length === 0) {
 		return (
 			<div className="empty">
-				<p>No task found</p>
+				No task found
 			</div>
 		);
 	}
