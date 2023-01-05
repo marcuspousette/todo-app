@@ -1,0 +1,18 @@
+.input-wrapper {
+    display: flex;
+}
+
+.input {
+    width: 200px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    border-right: none;
+}
+
+.add-button {
+    color: #00c875;
+}
+
+textarea:focus, input:focus {
+    color: #ffffff;
+}
