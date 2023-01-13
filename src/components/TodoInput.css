@@ -4,9 +4,14 @@
 
 .input {
     width: 200px;
-    border: 1px solid #ffffff;
+    border: 1px solid #d197ff;
     background-color: transparent;
     border-right: none;
+    padding-left: 5px;
+}
+
+.input:focus-visible {
+    outline: none;
 }
 
 .add-button {
