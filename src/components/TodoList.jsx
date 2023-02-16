@@ -1,7 +1,18 @@
 import TodoItem from './TodoItem';
 import './TodoList.css'
 
-const TodoList = ({ list, remove }) => {
+const TodoList = ({ list, remove, loading }) => {
+
+	if(loading) {
+		return (
+			<div className="todo-list">
+				{[1,2,3,4,5].map((entry, index) => (
+					<TodoItem entry={'Loading'} index={index} remove={remove} />
+				))}
+			</div>
+		);
+	}
+
 	if (list?.length === 0) {
 		return (
 			<div className="empty">
